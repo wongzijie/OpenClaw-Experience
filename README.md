@@ -1,5 +1,21 @@
 # OpenClaw-Experience
 
+![OpenClaw多Agent编排经验：派工、收包、权限与沉默排查](docs/assets/showcase/cover.png)
+
+让长任务在后台执行，并把多个 worker 的结果可靠收回来。这里收录真实排查过程和两种 fan-in 路径。
+
+**这是2026-04-03整理的案例记录。** 原文未固定所有适用版本；配置与权限行为需在自己的部署版本中验证，不能把示意图当作已替你修改配置。
+
+[推荐正文](multi-agent/openclaw-multi-agent-orchestration-guide-v2.md) · [图文素材](docs/assets/showcase/README.md) · [初版存档](multi-agent/openclaw-multi-agent-orchestration-guide.md)
+
+## 先看整个收包链路
+
+![先看整个收包链路，流程示意而非运行截图](docs/assets/showcase/workflow.png)
+
+direct collect 与消息回传是不同架构；跨会话读取涉及可见性和 agent-to-agent 两层权限。完整条件与报错原文保留在正文中。
+
+[查看全部图片与来源](docs/assets/showcase/README.md)
+
 OpenClaw 中使用经验分享。记录真实踩坑过程、根因定位与可复用配置。
 
 ## 文档索引
@@ -22,3 +38,7 @@ OpenClaw 中使用经验分享。记录真实踩坑过程、根因定位与可�
 
 - 所有配置片段默认指向 `~/.openclaw/openclaw.json`
 - 报错原文照抄，不做转述，方便直接搜索匹配
+
+## 更多项目
+
+[A800 动量回测](https://github.com/wongzijie/stock_database) · [Spark Memory 设计](https://github.com/wongzijie/spark-memory) · [Snapshot 截图工具](https://github.com/wongzijie/Snapshot) · [Buffett Archive 本地检索](https://github.com/wongzijie/buffett-archive) · [相册快送](https://github.com/wongzijie/album-send)

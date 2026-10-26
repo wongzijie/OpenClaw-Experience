@@ -1,0 +1,28 @@
+{
+  "project": "OpenClaw-Experience",
+  "source_revision": "8f40e71450b0ac25361f2d26885c65c07856abed",
+  "generated_date": "2026-10-26",
+  "status": "CASE NOTES / RECORDED 2026-04-03",
+  "source_files": [
+    "multi-agent/openclaw-multi-agent-orchestration-guide-v2.md"
+  ],
+  "images": [
+    {
+      "path": "cover.png",
+      "bytes": 57241,
+      "sha256": "63e8246b61d41495a68a0399b63b72e7c012afa670abae0d089cb3f4f48f0578"
+    },
+    {
+      "path": "workflow.png",
+      "bytes": 74823,
+      "sha256": "c327dbed386aef972790d8dccbe43e39afbe202ed5a6bc03f9b2a278cfc86219"
+    },
+    {
+      "path": "social-preview.png",
+      "bytes": 57241,
+      "sha256": "63e8246b61d41495a68a0399b63b72e7c012afa670abae0d089cb3f4f48f0578"
+    }
+  ],
+  "verification_scope": "Source/README review and visual inspection; application runtime not retested",
+  "illustration_notice": "Workflow illustration, not an application screenshot"
+}
